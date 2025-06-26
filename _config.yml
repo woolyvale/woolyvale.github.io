@@ -29,8 +29,12 @@ url: "woolyvale.com" # the base hostname & protocol for your site, e.g. http://e
 #twitter_username: jekyllrb
 github_username:  woolyvale
 
+masthead_title: "Woolyvale Blog"
+breadcrumbs: true
+
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
 
@@ -53,3 +57,26 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+search: true
+search_provider: algolia
+algolia:
+  application_id: IO5KHFXSPJ
+  index_name: Woolyvale
+  search_only_api_key: 2d3d3559816d447c636a02868a41f4ab
+  powered_by: true
+
+author:
+  name: "Farmer"
+  bio: Hi, I'm the farmer, maker of all things soft and story-driven at Woolyvale. Here, yarn becomes carrots, chickens, and apple-pals—each brought to life in weekly farm-journal posts. Dive into step-by-step patterns, workshop snapshots, and whimsical tales of our crochet critters (plus the mythical helpers who tend to them). Pull up a stool, grab your hook, and join our cozy corner of the pixel-pastoral world.
+  location: "Woolyvale, PNW"
+
+footer:
+  links:
+    - label: "Bluesky"
+      icon: "fab fab-fw fa-bluesky"
+      url: "https://bsky.app/profile/woolyvale.bsky.social"
+    - label: "Instagram"
+      icon: "fab fab-fw fa-instagram"
+      url: "https://instagram.com/woolyvale_farmer"
+
