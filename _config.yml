@@ -37,6 +37,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-algolia
 
 # Exclude from processing.
 # The following items will not be processed, by default.
